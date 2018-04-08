@@ -12,4 +12,9 @@ return {
 		URL = "Gskartwii/Rbx_CustomFont";
 		Description = "Custom Fonts";
 	};
-}
+	
+	EvLightning = {
+		URL = "evaera/EvLightning";
+		Description = "Realistic-looking lightning bolt generator";
+	};
+};
