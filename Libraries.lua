@@ -13,8 +13,8 @@ return {
 		Description = "Custom Fonts";
 	};
 	
-	EvLightning = {
+	--[[EvLightning = {
 		URL = "evaera/EvLightning";
 		Description = "Realistic-looking lightning bolt generator";
-	};
+	};]]
 };
