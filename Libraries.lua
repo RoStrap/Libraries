@@ -5,7 +5,7 @@ return {
 
 	Try = {
 		URL = "Validark/RBX-Try-Library/blob/patch-4";
-		Description = "A library for controlling the flow of error-prone, interdependent functions";
+		Description = "An asynchronous pcall-wrapper for interdependent error-prone functions";
 	};
 
 	Rbx_CustomFont = {
