@@ -30,7 +30,7 @@ Folders containing multiple Lua files with names containing the name of a ancest
 Libraries that should be installed and packaged differently from all of the already-integrated Libraries may require adjustment on the Plugin's part. In this case, do what makes the most sense for your GitHub repository or consider adding fields to the [Libraries table](https://github.com/RoStrap/Libraries/blob/master/Libraries.lua) and the installer will be adjusted.
 
 ## Dependencies
-Dependencies are detected by the plugin using [this handy script](https://github.com/RoStrap/Libraries/blob/master/GetDependencies.ignore.lua). It can detect from the following source code that `Tween` and `Maid` are the names a Library will need to have installed in order to work. If your source code intends to rely on dependencies from the RoStrap system, [the detection script](https://github.com/RoStrap/Libraries/blob/master/GetDependencies.ignore.lua) *must* be able to successfully determine the dependencies of your Libraries.
+Dependencies are detected by the plugin using [this handy script](https://github.com/RoStrap/Libraries/blob/GetDeps/GetDependencies.ignore.lua). It can detect from the following source code that `Tween` and `Maid` are the names a Library will need to have installed in order to work. If your source code intends to rely on dependencies from the RoStrap system, [the detection script](https://github.com/RoStrap/Libraries/blob/GetDeps/GetDependencies.ignore.lua) *must* be able to successfully determine the dependencies of your Libraries.
 
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage") -- You have to use game:GetService
