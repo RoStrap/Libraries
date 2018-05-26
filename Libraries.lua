@@ -20,6 +20,6 @@ return {
 	
 	Ready = {
 		URL = "EmeraldSlash/RbxReady";
-		Description = "A way to wait until an object has been fully loaded"
+		Description = "A Library for yielding until an object's descendants have finished replicating"
 	}
 };
