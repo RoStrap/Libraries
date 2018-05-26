@@ -17,4 +17,9 @@ return {
 		URL = "evaera/EvLightning";
 		Description = "Realistic-looking lightning bolt generator";
 	};
+	
+	Ready = {
+		URL = "EmeraldSlash/RbxReady";
+		Description = "A way to wait until an object has been fully loaded"
+	}
 };
