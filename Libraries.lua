@@ -21,5 +21,10 @@ return {
 	Ready = {
 		URL = "EmeraldSlash/RbxReady";
 		Description = "A Library for yielding until an object's descendants have finished replicating"
+	};
+	
+	RadialImage = {
+		URL = "evaera/RadialSpriteSheetGenerator";
+		Description = "A tool that generates and displays radial progress indicators using a sprite sheet."
 	}
 };
