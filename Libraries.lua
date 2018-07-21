@@ -4,7 +4,7 @@ return {
 	};
 
 	Try = {
-		URL = "Validark/RBX-Try-Library/blob/patch-4";
+		URL = "Validark/RBX-Try-Library/tree/patch-4";
 		Description = "An asynchronous pcall-wrapper for interdependent error-prone functions";
 	};
 
