@@ -26,5 +26,10 @@ return {
 	RadialImage = {
 		URL = "evaera/RadialSpriteSheetGenerator/roblox";
 		Description = "A tool that generates and displays radial progress indicators using a sprite sheet."
+	},
+	
+	VariousModules = {
+		URL = "howmanysmall/Modules",
+		Description = "A miscellaneous collection of modules."
 	}
 };
