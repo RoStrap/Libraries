@@ -13,11 +13,16 @@ return {
 		Description = "Realistic-looking lightning bolt generator";
 	};
 	
+	--[[
+	Ready has an open pull request to fix the @rostrap tag in the comments which breaks the RoStrap detection system. Please fix.
+
 	Ready = {
-		URL = "EmeraldSlash/RbxReady";
+		URL = "EmeraldSlash/RbxReady/blob/master/Ready.lua";
 		Description = "A Library for yielding until an object's descendants have finished replicating"
 	};
-	
+
+	--]]
+
 	RadialImage = {
 		URL = "evaera/RadialSpriteSheetGenerator/roblox";
 		Description = "A tool that generates and displays radial progress indicators using a sprite sheet."
