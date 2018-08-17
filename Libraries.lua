@@ -26,5 +26,5 @@ return {
 	MockDataStoreService = {
 		URL = "buildthomas/MockDataStoreService/tree/master/lib";
 		Description = "An implementation of DataStoreService in Lua for use in Studio"
-	}:
+	};
 };
