@@ -23,8 +23,10 @@ return {
 		Description = "A Library for yielding until an object's descendants have finished replicating";
 	};
 	
+	--[[
 	MockDataStoreService = {
 		URL = "buildthomas/MockDataStoreService/tree/master/lib";
 		Description = "An implementation of DataStoreService in Lua for use in Studio";
 	};
+	--]]
 };
