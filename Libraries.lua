@@ -33,8 +33,8 @@ return {
 	};
 	
 	Promise = {
-		URL = "LPGhatguy/roblox-lua-promise/blob/master/lib";
-		Description = "A Promise represents a unit of asynchronous work as an alternative to yielding.";
+		URL = "LPGhatguy/roblox-lua-promise/tree/master/lib";
+		Description = "An implementation of Promise similar to Promise/A+";
 		Documentation = "https://github.com/LPGhatguy/roblox-lua-promise/blob/master/README.md";
 	};
 };
