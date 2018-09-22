@@ -37,4 +37,11 @@ return {
 		Description = "An implementation of Promise similar to Promise/A+";
 		Documentation = "https://github.com/LPGhatguy/roblox-lua-promise/blob/master/README.md";
 	};
+	
+	Cmdr = {
+		URL = "evaera/Cmdr";
+		Description = "A fully extensible and type-safe admin-commands console";
+		Documentation = "https://github.com/evaera/Cmdr/blob/master/README.md";
+		ParentFolderPath = "Cmdr.Server"; -- Dot separated directory within Repository.Packages into which Cmdr will be installed
+	};
 };
