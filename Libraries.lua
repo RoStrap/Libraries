@@ -21,5 +21,10 @@ return {
 	Ready = {
 		URL = "EmeraldSlash/RbxReady";
 		Description = "A way to wait until an object has been fully loaded"
+	};
+	
+	Mouse = {
+		URL = "EmeraldSlash/RbxMouse";
+		Description = "A clean mouse library using up-to-date input APIs"
 	}
 };
