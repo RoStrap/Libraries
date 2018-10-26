@@ -89,31 +89,31 @@ return {
 	};
 
 	Leveler = {
-		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Leveler.module.lua";
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Leveler.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Math/Leveler/";
 		ParentFolderPath = "Math";
 	};
 
 	Normal = {
-		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Normal.module.lua";
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Normal.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Math/Normal/";
 		ParentFolderPath = "Math";
 	};
 
 	WeightedProbabilityFunction = {
-		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/WeightedProbabilityFunction.module.lua";
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/WeightedProbabilityFunction.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Math/WeightedProbabilityFunction/";
 		ParentFolderPath = "Math";
 	};
 
 	FastSpawn = {
-		URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/FastSpawn.module.lua";
+		URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/FastSpawn.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Helper/FastSpawn/";
 		ParentFolderPath = "Helper";
 	};
 
 	Make = {
-		URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/Make.module.lua";
+		URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/Make.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Helper/Make/";
 		ParentFolderPath = "Helper";
 	};
@@ -131,7 +131,7 @@ return {
 	};
 
 	Debug = {
-		URL = "https://raw.githubusercontent.com/RoStrap/Debugging/master/Debug.module.lua";
+		URL = "https://raw.githubusercontent.com/RoStrap/Debugging/master/Debug.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Debugging/Debug/";
 		ParentFolderPath = "Debugging";
 	};
