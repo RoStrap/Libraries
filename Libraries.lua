@@ -1,39 +1,213 @@
 return {
-	Janitor = {URL = "https://raw.githubusercontent.com/RoStrap/Events/master/Janitor.lua"};
-	Signal = {URL = "https://raw.githubusercontent.com/RoStrap/Events/master/Signal.lua"};
-	Keys = {URL = "https://raw.githubusercontent.com/RoStrap/Input/master/Keys.lua"};
-	Enumeration = {URL = "https://raw.githubusercontent.com/RoStrap/Classes/master/Enumeration.lua"};
-	PseudoInstance = {URL = "https://raw.githubusercontent.com/RoStrap/Classes/master/PseudoInstance.lua"};
-	ReplicatedPseudoInstance = {URL = "https://raw.githubusercontent.com/RoStrap/Classes/master/ReplicatedPseudoInstance.lua"};
-	Sentry = {URL = "https://github.com/RoStrap/Sentry"};
-	Bezier = {URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/Bezier.lua"};
-	EasingFunctions = {URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/EasingFunctions.lua"};
-	Lerps = {URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/Lerps.lua"};
-	Tween = {URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/Tween.lua"};
-	Array = {URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/Array.lua"};
-	HTMLParser = {URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/HTMLParser.lua"};
-	SortedArray = {URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/SortedArray.lua"};
-	Table = {URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/Table.lua"};
-	Leveler = {URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Leveler.module.lua"};
-	Normal = {URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Normal.module.lua"};
-	WeightedProbabilityFunction = {URL = "https://raw.githubusercontent.com/RoStrap/Math/master/WeightedProbabilityFunction.module.lua"};
-	FastSpawn = {URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/FastSpawn.module.lua"};
-	Make = {URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/Make.module.lua"};
-	Date = {URL = "https://raw.githubusercontent.com/RoStrap/Time/master/Date.lua"};
-	SyncedPoller = {URL = "https://raw.githubusercontent.com/RoStrap/Time/master/SyncedPoller.lua"};
-	Debug = {URL = "https://raw.githubusercontent.com/RoStrap/Debugging/master/Debug.module.lua"};
-	Typer = {URL = "https://raw.githubusercontent.com/RoStrap/Debugging/master/Typer.lua"};
-	AsymmetricTransformation = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/AsymmetricTransformation.lua"};
-	Checkbox = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Checkbox.lua"};
-	ChoiceDialog = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/ChoiceDialog.lua"};
-	Color = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Color.lua"};
-	Radio = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Radio.lua"};
-	RadioGroup = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/RadioGroup.lua"};
-	RippleButton = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/RippleButton.lua"};
-	Rippler = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Rippler.lua"};
-	SelectionController = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/SelectionController.lua"};
-	Shadow = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Shadow.lua"};
-	Snackbar = {URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Snackbar.lua"};
+	Janitor = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Events/master/Janitor.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Events/Janitor/";
+		ParentFolderPath = "Events";
+	};
+
+	Signal = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Events/master/Signal.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Events/Signal/";
+		ParentFolderPath = "Events";
+	};
+
+	Keys = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Input/master/Keys.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Input/Keys/";
+		ParentFolderPath = "Input";
+	};
+
+	Enumeration = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Classes/master/Enumeration.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Classes/Enumeration";
+		ParentFolderPath = "Classes";
+	};
+
+	PseudoInstance = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Classes/master/PseudoInstance.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Classes/PseudoInstance/";
+		ParentFolderPath = "Classes";
+	};
+
+	ReplicatedPseudoInstance = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Classes/master/ReplicatedPseudoInstance.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Classes/ReplicatedPseudoInstance/";
+		ParentFolderPath = "Classes";
+	};
+
+	Sentry = {
+		URL = "https://github.com/RoStrap/Sentry";
+		Documentation = "https://rostrap.github.io/Libraries/Sentry/";
+	};
+
+	Bezier = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/Bezier.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Interpolation/Bezier/";
+		ParentFolderPath = "Interpolation";
+	};
+
+	EasingFunctions = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/EasingFunctions.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Interpolation/EasingFunctions/";
+		ParentFolderPath = "Interpolation";
+	};
+
+	Lerps = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/Lerps.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Interpolation/Lerps/";
+		ParentFolderPath = "Interpolation";
+	};
+
+	Tween = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Interpolation/master/Tween.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Interpolation/Tween/";
+		ParentFolderPath = "Interpolation";
+	};
+
+	Array = {
+		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/Array.lua";
+		Documentation = "https://rostrap.github.io/Libraries/DataTypes/Array/";
+		ParentFolderPath = "DataTypes";
+	};
+
+	HTMLParser = {
+		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/HTMLParser.lua";
+		Documentation = "https://rostrap.github.io/Libraries/DataTypes/HTMLParser/";
+		ParentFolderPath = "DataTypes";
+	};
+
+	SortedArray = {
+		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/SortedArray.lua";
+		Documentation = "https://rostrap.github.io/Libraries/DataTypes/SortedArray/";
+		ParentFolderPath = "DataTypes";
+	};
+
+	Table = {
+		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/Table.lua";
+		Documentation = "https://rostrap.github.io/Libraries/DataTypes/Table/";
+		ParentFolderPath = "DataTypes";
+	};
+
+	Leveler = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Leveler.module.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Math/Leveler/";
+		ParentFolderPath = "Math";
+	};
+
+	Normal = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Normal.module.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Math/Normal/";
+		ParentFolderPath = "Math";
+	};
+
+	WeightedProbabilityFunction = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/WeightedProbabilityFunction.module.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Math/WeightedProbabilityFunction/";
+		ParentFolderPath = "Math";
+	};
+
+	FastSpawn = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/FastSpawn.module.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Helper/FastSpawn/";
+		ParentFolderPath = "Helper";
+	};
+
+	Make = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Helper/master/Make.module.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Helper/Make/";
+		ParentFolderPath = "Helper";
+	};
+
+	Date = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Time/master/Date.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Time/Date/";
+		ParentFolderPath = "Time";
+	};
+
+	SyncedPoller = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Time/master/SyncedPoller.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Time/SyncedPoller/";
+		ParentFolderPath = "Time";
+	};
+
+	Debug = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Debugging/master/Debug.module.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Debugging/Debug/";
+		ParentFolderPath = "Debugging";
+	};
+
+	Typer = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Debugging/master/Typer.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Debugging/Typer/";
+		ParentFolderPath = "Debugging";
+	};
+
+	AsymmetricTransformation = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/AsymmetricTransformation.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/AsymmetricTransformation/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	Checkbox = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Checkbox.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Checkbox/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	ChoiceDialog = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/ChoiceDialog.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/ChoiceDialog/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	Color = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Color.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Color/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	Radio = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Radio.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Radio/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	RadioGroup = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/RadioGroup.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/RadioGroup/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	RippleButton = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/RippleButton.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/RippleButton/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	Rippler = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Rippler.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Rippler/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	SelectionController = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/SelectionController.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/SelectionController/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	Shadow = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Shadow.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Shadow/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
+	Snackbar = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Snackbar.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Snackbar/";
+		ParentFolderPath = "RoStrapUI";
+	};
+
 
 	Try = {
 		URL = "Validark/RBX-Try-Library/tree/patch-4";
