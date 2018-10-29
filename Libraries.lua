@@ -202,11 +202,12 @@ return {
 		ParentFolderPath = "RoStrapUI";
 	};
 
-	Snackbar = {
+--[[Snackbar = {
 		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Snackbar.lua";
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Snackbar/";
 		ParentFolderPath = "RoStrapUI";
 	};
+--]]
 
 
 	Try = {
