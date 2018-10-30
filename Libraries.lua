@@ -11,6 +11,12 @@ return {
 		ParentFolderPath = "Events";
 	};
 
+	ReplicatedValue = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Events/master/ReplicatedValue.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Events/ReplicatedValue/";
+		ParentFolderPath = "Events";
+	};
+
 	Keys = {
 		URL = "https://raw.githubusercontent.com/RoStrap/Input/master/Keys.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Input/Keys/";
@@ -100,6 +106,12 @@ return {
 		ParentFolderPath = "Math";
 	};
 
+	Spring = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Spring.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Math/Spring/";
+		ParentFolderPath = "Math";
+	};
+
 	WeightedProbabilityFunction = {
 		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/WeightedProbabilityFunction.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Math/WeightedProbabilityFunction/";
@@ -127,6 +139,12 @@ return {
 	SyncedPoller = {
 		URL = "https://raw.githubusercontent.com/RoStrap/Time/master/SyncedPoller.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Time/SyncedPoller/";
+		ParentFolderPath = "Time";
+	};
+
+	ConditionalPoller = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Time/master/ConditionalPoller.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Time/ConditionalPoller/";
 		ParentFolderPath = "Time";
 	};
 
