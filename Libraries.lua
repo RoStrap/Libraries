@@ -251,4 +251,10 @@ return {
 		Documentation = "https://github.com/evaera/Cmdr/blob/master/README.md";
 		ParentFolderPath = "Cmdr.Server"; -- Dot separated directory within Repository.Packages into which Cmdr will be installed
 	};
+	
+	RoStrapSpritesheet = {
+		URL = "howmanysmall/Modules/tree/master/Spritesheets";
+		Description = "A Spritesheet Handler made for RoStrap.";
+		Documentation = "https://github.com/howmanysmall/Modules/blob/master/Spritesheets/README.md";
+	};
 };
