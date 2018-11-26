@@ -251,4 +251,10 @@ return {
 		Documentation = "https://github.com/evaera/Cmdr/blob/master/README.md";
 		ParentFolderPath = "Cmdr.Server"; -- Dot separated directory within Repository.Packages into which Cmdr will be installed
 	};
+	
+	Aurora = {
+		URL = "evaera/Aurora/tree/master/lib";
+		Description = "Aurora is a library that can manage status effects (known as \"Auras\") in your Roblox game.";
+		Documentation = "https://github.com/evaera/Cmdr/blob/master/README.md";
+	};
 };
