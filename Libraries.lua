@@ -202,13 +202,11 @@ return {
 		ParentFolderPath = "RoStrapUI";
 	};
 
---[[Snackbar = {
+	Snackbar = {
 		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Snackbar.lua";
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Snackbar/";
 		ParentFolderPath = "RoStrapUI";
 	};
---]]
-
 
 	Try = {
 		URL = "Validark/RBX-Try-Library/tree/patch-4";
