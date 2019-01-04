@@ -189,6 +189,12 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Rippler/";
 		ParentFolderPath = "RoStrapUI";
 	};
+	
+	RoStrapPriorityUI = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/RoStrapPriorityUI.lua";
+		Documentation = "WIP";
+		ParentFolderPath = "RoStrapUI";
+	};
 
 	SelectionController = {
 		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/SelectionController.lua";
