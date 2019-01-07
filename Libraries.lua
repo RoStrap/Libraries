@@ -75,13 +75,13 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/DataTypes/Array/";
 		ParentFolderPath = "DataTypes";
 	};
-
+--[[
 	HTMLParser = {
 		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/HTMLParser.lua";
 		Documentation = "https://rostrap.github.io/Libraries/DataTypes/HTMLParser/";
 		ParentFolderPath = "DataTypes";
 	};
-
+--]]
 	SortedArray = {
 		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/SortedArray.lua";
 		Documentation = "https://rostrap.github.io/Libraries/DataTypes/SortedArray/";
