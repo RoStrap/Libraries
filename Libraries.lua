@@ -88,6 +88,12 @@ return {
 		ParentFolderPath = "DataTypes";
 	};
 
+	BigNum = {
+		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/BigNum.lua";
+		Documentation = "https://rostrap.github.io/Libraries/Math/BigNum/";
+		ParentFolderPath = "Math";
+	};
+	
 	Leveler = {
 		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Leveler.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Math/Leveler/";
