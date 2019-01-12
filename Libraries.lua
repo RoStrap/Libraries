@@ -282,7 +282,25 @@ return {
 	
 	Aurora = {
 		URL = "evaera/Aurora/tree/master/lib";
-		Description = "Aurora is a library that can manage status effects (known as \"Auras\") in your Roblox game.";
+		Description = "A library that can manage status effects (known as \"Auras\") in your Roblox game";
 		Documentation = "https://github.com/evaera/Aurora/blob/master/README.md";
+	};
+	
+	Roact = {
+		URL = "Roblox/roact/tree/master/lib";
+		Description = "A declarative UI library similar to Facebook's React";
+		Documentation = "https://roblox.github.io/roact/";
+	};
+	
+	Rodux = {
+		URL = "Roblox/rodux/tree/master/lib";
+		Description = "A state management library inspired by Redux";
+		Documentation = "https://roblox.github.io/rodux/";
+	};
+	
+	["Roact-Rodux"] = {
+		URL = "Roblox/roact-rodux/tree/master/lib";
+		Description = "An ergonomic binding between Roact and Rodux";
+		Documentation = "https://roblox.github.io/roact-rodux/";
 	};
 };
