@@ -26,11 +26,11 @@ return {
 		Documentation = "https://github.com/EmeraldSlash/RbxReady/blob/master/README.md";
 	};
   
-  Mouse = {
+ 	PseudoMouse = {
 		URL = "EmeraldSlash/RbxMouse/blob/master/RbxMouse.lua";
 		Description = "A clean mouse library using up-to-date input APIs";
-    Documentqation = "https://github.com/EmeraldSlash/RbxMouse/blob/master/README.md"
-	}
+		Documentation = "https://github.com/EmeraldSlash/RbxMouse/blob/master/README.md";
+	};
 	
 	DataStoreService = {
 		URL = "buildthomas/MockDataStoreService/tree/master/lib";
