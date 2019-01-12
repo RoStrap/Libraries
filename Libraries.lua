@@ -27,7 +27,7 @@ return {
 	};
   
  	PseudoMouse = {
-		URL = "EmeraldSlash/RbxMouse/blob/master/RbxMouse.lua";
+		URL = "EmeraldSlash/RbxMouse";
 		Description = "A custom Mouse object with a cleaner API";
 		Documentation = "https://github.com/EmeraldSlash/RbxMouse/blob/master/README.md";
 	};
