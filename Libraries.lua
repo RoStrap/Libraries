@@ -303,4 +303,10 @@ return {
 		Description = "An ergonomic binding between Roact and Rodux";
 		Documentation = "https://roblox.github.io/roact-rodux/";
 	};
+	
+	Replica = {
+		URL = "headjoe3/Replica/tree/master/Replica";
+		Description = "An easily controllable Server/Client data replication library";
+		Documentation = "https://github.com/headjoe3/Replica/blob/master/README.md";
+	};
 };
