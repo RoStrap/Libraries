@@ -260,13 +260,7 @@ return {
 		Description = "A Library for yielding until an object's descendants have finished replicating";
 		Documentation = "https://github.com/EmeraldSlash/RbxReady/blob/master/README.md";
 	};
-  
- 	PseudoMouse = {
-		URL = "EmeraldSlash/RbxMouse";
-		Description = "A custom Mouse object with a cleaner API";
-		Documentation = "https://github.com/EmeraldSlash/RbxMouse/blob/master/README.md";
-	};
-  
+
 	DataStoreService = {
 		URL = "buildthomas/MockDataStoreService/tree/master/lib";
 		Description = "An implementation of DataStoreService in Lua for use in Studio";
