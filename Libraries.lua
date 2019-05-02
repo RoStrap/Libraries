@@ -312,7 +312,7 @@ return {
 	
 	Rocrastinate = {
 		URL = "headjoe3/Rocrastinate/tree/master/Rocrastinate";
-		Description = "A React/Redux-like state management and view library optimized for Roblox;
+		Description = "A React/Redux-like state management and view library optimized for Roblox";
 		Documentation = "https://github.com/headjoe3/Rocrastinate/blob/master/docs/1-1-introduction.md";
 	};
 };
