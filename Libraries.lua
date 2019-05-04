@@ -287,7 +287,7 @@ return {
 	};
 	
 	Roact = {
-		URL = "Roblox/roact/tree/master/lib";
+		URL = "Roblox/roact/tree/master/src";
 		Description = "A declarative UI library similar to Facebook's React";
 		Documentation = "https://roblox.github.io/roact/";
 	};
