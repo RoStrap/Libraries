@@ -75,13 +75,13 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/DataTypes/Array/";
 		ParentFolderPath = "DataTypes";
 	};
---[[
+	--[[
 	HTMLParser = {
 		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/HTMLParser.lua";
 		Documentation = "https://rostrap.github.io/Libraries/DataTypes/HTMLParser/";
 		ParentFolderPath = "DataTypes";
 	};
---]]
+	--]]
 	SortedArray = {
 		URL = "https://raw.githubusercontent.com/RoStrap/DataTypes/master/SortedArray.lua";
 		Documentation = "https://rostrap.github.io/Libraries/DataTypes/SortedArray/";
@@ -99,7 +99,7 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/Math/BigNum/";
 		ParentFolderPath = "Math";
 	};
-	
+
 	Leveler = {
 		URL = "https://raw.githubusercontent.com/RoStrap/Math/master/Leveler.lua";
 		Documentation = "https://rostrap.github.io/Libraries/Math/Leveler/";
@@ -213,7 +213,7 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/Rippler/";
 		ParentFolderPath = "RoStrapUI";
 	};
-	
+
 	RoStrapPriorityUI = {
 		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/RoStrapPriorityUI.lua";
 		Documentation = "WIP";
@@ -268,9 +268,9 @@ return {
 	};
 
 	Promise = {
-		URL = "LPGhatguy/roblox-lua-promise/tree/master/lib";
+		URL = "evaera/roblox-lua-promise/tree/master/lib";
 		Description = "An implementation of Promise similar to Promise/A+";
-		Documentation = "https://github.com/LPGhatguy/roblox-lua-promise/blob/master/README.md";
+		Documentation = "https://eryn.io/roblox-lua-promise/";
 	};
 
 	Cmdr = {
@@ -279,40 +279,91 @@ return {
 		Documentation = "https://github.com/evaera/Cmdr/blob/master/README.md";
 		ParentFolderPath = "Cmdr.Server"; -- Dot separated directory within Repository.Packages into which Cmdr will be installed
 	};
-	
+
+	-- Succeeded by Rocs.
+	--[[
 	Aurora = {
 		URL = "evaera/Aurora/tree/master/lib";
 		Description = "A library that can manage status effects (known as \"Auras\") in your Roblox game";
 		Documentation = "https://github.com/evaera/Aurora/blob/master/README.md";
 	};
-	
+	]]
+
 	Roact = {
 		URL = "Roblox/roact/tree/master/src";
 		Description = "A declarative UI library similar to Facebook's React";
 		Documentation = "https://roblox.github.io/roact/";
 	};
-	
+
 	Rodux = {
-		URL = "Roblox/rodux/tree/master/lib";
+		URL = "Roblox/rodux/tree/master/src";
 		Description = "A state management library inspired by Redux";
 		Documentation = "https://roblox.github.io/rodux/";
 	};
-	
+
 	["Roact-Rodux"] = {
-		URL = "Roblox/roact-rodux/tree/master/lib";
+		URL = "Roblox/roact-rodux/tree/master/src";
 		Description = "An ergonomic binding between Roact and Rodux";
 		Documentation = "https://roblox.github.io/roact-rodux/";
 	};
-	
+
 	Replica = {
 		URL = "headjoe3/Replica/tree/master/Replica";
 		Description = "An easily controllable Server/Client data replication library";
 		Documentation = "https://github.com/headjoe3/Replica/blob/master/README.md";
 	};
-	
+
 	Rocrastinate = {
 		URL = "headjoe3/Rocrastinate/tree/master/Rocrastinate";
 		Description = "A React/Redux-like state management and view library optimized for Roblox";
 		Documentation = "https://github.com/headjoe3/Rocrastinate/blob/master/docs/1-1-introduction.md";
 	};
-};
+
+	DataStore2 = {
+		URL = "Kampfkarren/Roblox/tree/master/DataStore2";
+		Description = "DataStore2 is a simple to use data store system that caches, leading to significantly faster performance over traditional data stores";
+		Documentation = "https://kampfkarren.github.io/Roblox/";
+	};
+
+	ContextControls = {
+		URL = "vocksel/ContextControls/tree/master/lib";
+		Description = "Wrapper for ContextActionService with easy mobile button support";
+		Documentation = "https://github.com/vocksel/ContextControls/blob/master/README.md";
+	};
+
+	t = {
+		URL = "osyrisrblx/t/tree/master/lib";
+		Description = "A module which allows you to create type definitions to check values against";
+		Documentation = "https://github.com/osyrisrblx/t/blob/master/README.md";
+	};
+
+	Tag = {
+		URL = "vocksel/Tag/tree/master/lib";
+		Description = "Class to make tagging instances easy and typesafe";
+		Documentation = "https://github.com/vocksel/Tag/blob/master/README.md";
+	};
+
+	TestEZ = {
+		URL = "Roblox/testez/tree/master/src";
+		Description = "BDD-style test and assertion library for Roblox Lua";
+		Documentation = "https://roblox.github.io/testez/";
+	};
+
+	CameraShaker = {
+		URL = "Sleitnick/RbxCameraShaker/tree/master/src/CameraShaker";
+		Description = "Camera shake effects for Roblox games";
+		Documentation = "https://github.com/Sleitnick/RbxCameraShaker/blob/master/README.md";
+	};
+
+	Rocs = {
+		URL = "rocs-rbx/Rocs/tree/master/lib";
+		Description = "Roblox Component System";
+		Documentation = "https://rocs-rbx.github.io/Rocs/#rocs";
+	};
+
+	Scheduler = {
+		URL = "howmanysmall/Scheduler/tree/master/src";
+		Description = "A RunService.Heartbeat alternative to Roblox functions that use the legacy scheduler";
+		Documentation = "https://github.com/howmanysmall/Scheduler/blob/master/README.md";
+	};
+}
