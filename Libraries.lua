@@ -183,6 +183,12 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/ChoiceDialog/";
 		ParentFolderPath = "RoStrapUI";
 	};
+	
+	ConfirmationDialog = {
+		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/ConfirmationDialog.lua";
+		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/ConfirmationDialog/";
+		ParentFolderPath = "RoStrapUI";
+	};
 
 	Color = {
 		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/Color.lua";
