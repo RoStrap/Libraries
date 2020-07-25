@@ -183,7 +183,7 @@ return {
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/ChoiceDialog/";
 		ParentFolderPath = "RoStrapUI";
 	};
-	
+
 	ConfirmationDialog = {
 		URL = "https://raw.githubusercontent.com/RoStrap/RoStrapUI/master/ConfirmationDialog.lua";
 		Documentation = "https://rostrap.github.io/Libraries/RoStrapUI/ConfirmationDialog/";
@@ -329,6 +329,7 @@ return {
 		URL = "Kampfkarren/Roblox/tree/master/DataStore2";
 		Description = "DataStore2 is a simple to use data store system that caches, leading to significantly faster performance over traditional data stores";
 		Documentation = "https://kampfkarren.github.io/Roblox/";
+		ParentFolderPath = "DataStore2.Server";
 	};
 
 	ContextControls = {
