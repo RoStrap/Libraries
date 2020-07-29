@@ -373,4 +373,18 @@ return {
 		Description = "A RunService.Heartbeat alternative to Roblox functions that use the legacy scheduler";
 		Documentation = "https://github.com/howmanysmall/Scheduler/blob/master/README.md";
 	};
+
+	Webhook = {
+		URL = "y3th/rbx-discord/blob/master/src/Webhook.lua";
+		Description = "Discord Webhook class";
+		Documentation = "https://github.com/y3th/rbx-discord/blob/master/docs/Webhook.md";
+		ParentFolderPath = "Discord.Server";
+	};
+
+	Embed = {
+		URL = "y3th/rbx-discord/blob/master/src/Embed.lua";
+		Description = "Discord Embed class";
+		Documentation = "https://github.com/y3th/rbx-discord/blob/master/docs/Embed.md";
+		ParentFolderPath = "Discord.Server";
+	}
 }
