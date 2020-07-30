@@ -374,6 +374,13 @@ return {
 		Documentation = "https://github.com/howmanysmall/Scheduler/blob/master/README.md";
 	};
 
+	ProfileService = {
+		URL = "MadStudioRoblox/ProfileService/blob/master/ProfileService.lua";
+		Description = "Universal session-locked savable table API";
+		Documentation = "https://madstudioroblox.github.io/ProfileService/";
+		ParentFolderPath = "ProfileService.Server";
+	};
+
 	Webhook = {
 		URL = "y3th/rbx-discord/blob/master/src/Webhook.lua";
 		Description = "Discord Webhook class";
@@ -386,5 +393,5 @@ return {
 		Description = "Discord Embed class";
 		Documentation = "https://github.com/y3th/rbx-discord/blob/master/docs/Embed.md";
 		ParentFolderPath = "Discord.Server";
-	}
+	};
 }
