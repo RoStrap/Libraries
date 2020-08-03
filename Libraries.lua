@@ -372,4 +372,10 @@ return {
 		Description = "A RunService.Heartbeat alternative to Roblox functions that use the legacy scheduler";
 		Documentation = "https://github.com/howmanysmall/Scheduler/blob/master/README.md";
 	};
+
+	Debris2 = {
+		URL = "https://pastebin.com/cWYxiLt5";
+		Description = "A better Debris service";
+		Documentation = "https://devforum.roblox.com/t/debris2-need-reviews/701300";
+	};
 }
