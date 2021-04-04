@@ -262,9 +262,9 @@ return {
 	};
 
 	Ready = {
-		URL = "EmeraldSlash/RbxReady/blob/master/Ready.lua";
+		URL = "Validark/RbxReady/blob/master/Ready.lua";
 		Description = "A Library for yielding until an object's descendants have finished replicating";
-		Documentation = "https://github.com/EmeraldSlash/RbxReady/blob/master/README.md";
+		Documentation = "https://github.com/Validark/RbxReady/blob/master/README.md";
 	};
 
 	DataStoreService = {
