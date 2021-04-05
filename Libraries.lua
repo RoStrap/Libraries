@@ -261,11 +261,6 @@ return {
 		Documentation = "https://github.com/evaera/RadialSpriteSheetGenerator/blob/master/README.md";
 	};
 
-	Ready = {
-		URL = "EmeraldSlash/RbxReady/blob/master/Ready.lua";
-		Description = "A Library for yielding until an object's descendants have finished replicating";
-		Documentation = "https://github.com/EmeraldSlash/RbxReady/blob/master/README.md";
-	};
 
 	DataStoreService = {
 		URL = "buildthomas/MockDataStoreService/tree/master/lib";
