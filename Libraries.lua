@@ -327,9 +327,9 @@ return {
 	};
 
 	ContextControls = {
-		URL = "vocksel/ContextControls/tree/master/lib";
+		URL = "vocksel/context-controls/tree/main/src";
 		Description = "Wrapper for ContextActionService with easy mobile button support";
-		Documentation = "https://github.com/vocksel/ContextControls/blob/master/README.md";
+		Documentation = "https://github.com/vocksel/context-controls/blob/main/README.md";
 	};
 
 	t = {
@@ -339,9 +339,9 @@ return {
 	};
 
 	Tag = {
-		URL = "vocksel/Tag/tree/master/lib";
+		URL = "vocksel/tag/tree/main/src";
 		Description = "Class to make tagging instances easy and typesafe";
-		Documentation = "https://github.com/vocksel/Tag/blob/master/README.md";
+		Documentation = "https://github.com/vocksel/tag/blob/main/README.md";
 	};
 
 	TestEZ = {
